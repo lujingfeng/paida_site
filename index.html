@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>上海湃大数据科技有限公司</title>
+    <meta name="description" content="上海湃大数据科技有限公司">
+
+    <style>
+        :root {
+            --c-bg: #fff;
+        }
+
+        html.dark {
+            --c-bg: #22272e;
+        }
+
+        html,
+        body {
+            background-color: var(--c-bg);
+        }
+    </style>
+    <script>
+        const userMode = localStorage.getItem('vuepress-color-scheme');
+        const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+            document.documentElement.classList.toggle('dark', true);
+        }
+    </script>
+    <link rel="preload" href="/assets/style-1.css" as="style">
+    <link rel="stylesheet" href="/assets/style-1.css">
+
+    <!-- <link rel="modulepreload" href="/assets/app.js">
+    <link rel="modulepreload" href="/assets/index.html-bbceba4c.js">
+    <link rel="modulepreload" href="/assets/111-4317e279.js">
+    <link rel="modulepreload" href="/assets/gzhYz-4bb841d0.js">
+    <link rel="modulepreload" href="/assets/QR-code-c8621e6d.js">
+    <link rel="modulepreload" href="/assets/index.html-352d2ec4.js"> -->
+
+
+    <link rel="modulepreload" href="/assets/app.js">
+    <link rel="modulepreload" href="/assets/index.html.js">
+    <link rel="modulepreload" href="/assets/index.html2.js">
+    <link rel="modulepreload" href="/assets/index.html3.js">
+    <link rel="modulepreload" href="/assets/index.html4.js">
+    <link rel="modulepreload" href="/assets/index.html5.js">
+</head>
+
+<body>
+    <div id="app"><!--[-->
+        
+    </div>
+    <script type="module" src="/assets/app.js" defer></script>
+</body>
+</html>

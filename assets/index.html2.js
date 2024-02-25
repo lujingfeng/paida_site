@@ -1,0 +1,1 @@
+const s="https://www.datarx.cn/images/product-service/111.png";export{s as _};
