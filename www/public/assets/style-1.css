@@ -5,8 +5,8 @@
 
 .banner-logo{
     color: #333;
-    font-size: 2rem;
-    margin-top: 2rem;
+    font-size: 3rem;
+    margin-top: 9rem;
     font-weight: bold;
     color: #ff7f00;
 }
@@ -1570,10 +1570,14 @@ div[class*=language-].line-numbers-mode:after {
         padding-top: 0
     }
     .banner-logo{
-        font-size: 1rem;
+        font-size: 1.3rem;
+        margin-top: 1rem;
     }
     .banner-logo span{
-        margin: 0 1rem;
+        margin: 0 0.2rem;
+    }
+    #main-title{
+        font-size: 1.2rem;
     }
 }
 
@@ -2120,7 +2124,7 @@ body {
 @media (max-width: 768px) {
     .home .hero .description {
         max-width: 100%;
-        font-size: 1.2rem
+        font-size: 1rem
     }
 }
 
