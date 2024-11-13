@@ -2,11 +2,14 @@ const { Controller } = require("egg");
 
 class HomeController extends Controller {
   async index() {
+    const { ctx } = this;
+    ctx.body = "hellow";
+  }
+  async queryUser() {
     const { ctx, app } = this;
-    const post = await app.mysql.get("demo");
+    const user = await app.mysql.get("user");
 
-    console.log(post);
-    ctx.body = post;
+    ctx.body = user;
   }
 }
 
