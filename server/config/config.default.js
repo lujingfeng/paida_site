@@ -26,12 +26,21 @@ module.exports = (appInfo) => {
     },
   };
 
+  const alinode = {
+    alinode: {
+      // 从 `Node.js 性能平台` 获取对应的接入参数
+      appid: "93976",
+      secret: "b12dfe396d9caf7b0fd36a76d3ec9698b97c2f41",
+    },
+  };
+
   /**
    * built-in config
    * @type {Egg.EggAppConfig}
    **/
   const config = (exports = {
     ...mysqlConfig,
+    ...alinode,
     cluster: {
       listen: {
         port: 9000,

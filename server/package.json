@@ -1,5 +1,5 @@
 {
-  "name": "sci-med",
+  "name": "research",
   "version": "1.0.0",
   "description": "med public database manager",
   "private": true,
@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "egg": "^3.17.5",
+    "egg-alinode": "^2.0.1",
     "egg-mysql": "^4.0.0",
     "egg-scripts": "2"
   },
@@ -21,8 +22,8 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-sci-med",
-    "stop": "egg-scripts stop --title=egg-server-sci-med",
+    "start": "egg-scripts start --daemon --title=egg-server-research",
+    "stop": "egg-scripts stop --title=egg-server-research",
     "dev": "egg-bin dev",
     "test": "npm run lint -- --fix && npm run test:local",
     "test:local": "egg-bin test",

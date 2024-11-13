@@ -8,4 +8,8 @@ module.exports = {
     enable: true,
     package: "egg-mysql",
   },
+  alinode: {
+    enable: process.env.NODE_ENV == "production",
+    package: "egg-alinode",
+  },
 };
